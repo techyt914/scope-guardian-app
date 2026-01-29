@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
         analyzeButton.classList.add('opacity-50', 'cursor-not-allowed');
 
         try {
-            const response = await fetch('/analyze', {
+            const response = await fetch('/api/handler', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
