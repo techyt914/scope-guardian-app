@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, jsonify
-import google.generativeai as genai
+import google.genai as genai
 import os
 
 # Configure the Gemini API key
